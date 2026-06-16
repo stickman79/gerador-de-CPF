@@ -2,7 +2,6 @@ import random
 from datetime import datetime
 
 def generate_valid_cpf():
-    # Gera um CPF válido com dígitos verificadores
     cpf = [random.randint(0, 9) for _ in range(9)]
     
     # Calcula o primeiro dígito verificador
@@ -22,7 +21,6 @@ def generate_valid_cpf():
     return ''.join(map(str, cpf))
 
 def generate_valid_pr():
-    # Gera um PRS (número de registro) válido
     pr = [random.randint(0, 9) for _ in range(8)]
     
     # Adiciona o dígito verificador
@@ -37,7 +35,6 @@ def generate_valid_pr():
     return ''.join(map(str, pr))
 
 def generate_vulnerability_data():
-    # Gera dados de vulnerabilidade para os anos 2024-2025
     data = []
     
     # Gera CPFs reais vazados
