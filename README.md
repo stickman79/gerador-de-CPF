@@ -15,4 +15,4 @@ baixe o python3:
  e copie o codigo e depois crie um arquivo nano gerador.py cole o codigo e depois
  digite:
  
- python3 gerador.py pronto
+ python3 gerador.py
