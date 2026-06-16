@@ -2,8 +2,7 @@ baixe o python3:
 
  sudo apt install python3
 
- depois digite:
- pyhon3
+ python3
 
  e cole o codigo do arquivo gerador  de cpf no terminal ou de git clone
 
