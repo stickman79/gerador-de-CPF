@@ -1,4 +1,5 @@
 baixe o python3:
+
  sudo apt install python3
 
  depois digite:
